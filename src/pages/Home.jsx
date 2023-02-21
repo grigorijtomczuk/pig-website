@@ -5,7 +5,7 @@ import { scrollWithOffset } from "../components/Page";
 
 import PigLogo from "../assets/images/icons/pig.svg";
 import TelegramLogo from "../assets/images/icons/tg-logo.svg";
-import GitHubLogo from "../assets/images/icons/github-logo.svg";
+import GitHubLogo from "../assets/images/icons/gh-logo.svg";
 import LittlePigsImage from "../assets/images/content/little-pigs.jpg";
 import FencePigImage from "../assets/images/content/fence-pig.jpg";
 import MeadowPigsImage from "../assets/images/content/meadow-pigs.jpg";
