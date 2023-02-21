@@ -38,7 +38,7 @@ export default function Home() {
 							<Link to="#">Галерея</Link>
 						</li>
 						<li>
-							<Link to="#">Регистрация свиньи</Link>
+							<Link to="/registry">Регистрация свиньи</Link>
 						</li>
 						<li>
 							<Link to="/old">Архив</Link>
@@ -90,7 +90,7 @@ export default function Home() {
 							<div className="article-title">Как стать свиньей?</div>
 							<p>
 								Зарегистрироваться на Свином сайтике очень просто: нужно просто заполнить{" "}
-								<Link className="simple-link" to="#">
+								<Link className="simple-link" to="/registry">
 									свиную анкетку
 								</Link>
 								! После регистрации Вы обретете все хорошие качества свиньи, а именно: хрючность, ласковость, няшность, милый пятачок, красивые глазки, восхитительные ушки и очаровательный голосок!
