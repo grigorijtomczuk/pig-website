@@ -20,7 +20,7 @@ export default function Router() {
 			<Route
 				path="/old"
 				element={
-					<Page title="Я люблю свинью">
+					<Page title="Свиной сайтик &bull; Архив">
 						<Old />
 					</Page>
 				}

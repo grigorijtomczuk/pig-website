@@ -1,49 +1,54 @@
-.old-container {
+.old-wrapper {
 	background: beige;
+	padding: 25px 25px;
 }
 
-p {
-	background-color: yellow;
-	color: brown;
-}
-
-h1 {
+.old-heading-1 {
 	background-color: pink;
 	color: white;
 	font-family: "Caveat", cursive;
 	font-size: 36px;
+	margin-bottom: 24px;
 }
 
-#paragraph {
+.old-paragraph {
 	font-family: "Caveat", cursive;
 	font-size: 24px;
 	border-style: solid;
 	padding: 12px;
+	background-color: yellow;
+	color: brown;
+	margin-bottom: 18px;
 }
 
 .old-ordered-list,
-h3 {
+.old-heading-3 {
 	font-family: "Roboto", sans-serif;
 	font-size: 20px;
+	margin: 12px 0;
 }
 
 .old-ordered-list {
 	list-style-type: decimal;
+	padding: 20px 36px;
 }
 
-a {
+.old-link {
 	font-size: 24px;
+	text-decoration: underline;
+	color: blueviolet;
 }
 
-button {
+.old-button {
 	font-family: "Caveat", cursive;
 	font-size: 24px;
 	padding: 15px;
 	background-color: violet;
 	color: #af00af;
+	cursor: pointer;
 }
 
-form {
+.old-form {
 	font-family: "Roboto", sans-serif;
 	font-size: 18px;
 	font-style: italic;
