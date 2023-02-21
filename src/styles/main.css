@@ -10,10 +10,6 @@
 	--cubic-bezier-responsive: cubic-bezier(0.34, -0.595, 0.34, 1.65);
 }
 
-html {
-	scroll-behavior: smooth;
-}
-
 body {
 	position: relative;
 	min-height: 100vh;
@@ -230,7 +226,7 @@ main {
 	width: 48px;
 	height: 48px;
 	content: "";
-	background-image: url(./../img/icons/arrow-down.svg);
+	background-image: url(../assets/images/icons/arrow-down.svg);
 	filter: drop-shadow(--shadow-more);
 }
 

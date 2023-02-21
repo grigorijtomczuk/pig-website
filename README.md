@@ -1,5 +1,5 @@
 <div align=center>
-	<img src="./img/favicon/favicon.ico" width=48px alt=logo>
+	<img src="./.github/images/logo.png" width=48px alt="Pig emoji">
 </div>
 
 <h1 align=center>

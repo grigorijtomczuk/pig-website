@@ -1,0 +1,52 @@
+.old-container {
+	background: beige;
+}
+
+p {
+	background-color: yellow;
+	color: brown;
+}
+
+h1 {
+	background-color: pink;
+	color: white;
+	font-family: "Caveat", cursive;
+	font-size: 36px;
+}
+
+#paragraph {
+	font-family: "Caveat", cursive;
+	font-size: 24px;
+	border-style: solid;
+	padding: 12px;
+}
+
+.old-ordered-list,
+h3 {
+	font-family: "Roboto", sans-serif;
+	font-size: 20px;
+}
+
+.old-ordered-list {
+	list-style-type: decimal;
+}
+
+a {
+	font-size: 24px;
+}
+
+button {
+	font-family: "Caveat", cursive;
+	font-size: 24px;
+	padding: 15px;
+	background-color: violet;
+	color: #af00af;
+}
+
+form {
+	font-family: "Roboto", sans-serif;
+	font-size: 18px;
+	font-style: italic;
+	border-style: dotted;
+	padding: 12px;
+}
