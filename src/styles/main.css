@@ -187,7 +187,7 @@ nav ul li:hover::after {
 /* MAIN */
 
 main {
-	padding-bottom: 221px;
+	padding-bottom: 219px;
 	text-shadow: var(--shadow-less);
 }
 

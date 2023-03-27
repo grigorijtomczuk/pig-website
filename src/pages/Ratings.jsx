@@ -1,3 +1,9 @@
 export default function Ratings() {
-	return <div></div>;
+	return (
+		<main>
+			<div className="hero">
+				<h2 className="hero-title">Рейтинги</h2>
+			</div>
+		</main>
+	);
 }
