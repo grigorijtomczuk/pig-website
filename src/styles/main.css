@@ -13,11 +13,15 @@
 	--cubic-bezier-responsive: cubic-bezier(0.34, -0.595, 0.34, 1.65);
 }
 
+html {
+	scrollbar-gutter: stable;
+}
+
 body {
 	position: relative;
 	min-height: 100vh;
-	font-family: var(--font-caveat);
 	background-color: var(--color-light-pink);
+	font-family: var(--font-caveat);
 }
 
 .simple-link {
