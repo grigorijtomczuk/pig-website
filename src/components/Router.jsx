@@ -2,6 +2,8 @@ import { Routes, Route } from "react-router-dom";
 
 import Page from "./Page";
 import Home from "../pages/Home";
+import Ratings from "../pages/Ratings";
+import Gallery from "../pages/Gallery";
 import Registry from "../pages/Registry";
 import Old from "../pages/Old";
 
@@ -15,6 +17,22 @@ export default function Router() {
 				element={
 					<Page title="Свиной сайтик &bull; Главная">
 						<Home />
+					</Page>
+				}
+			/>
+			<Route
+				path="/ratings"
+				element={
+					<Page title="Свиной сайтик &bull; Рейтинги">
+						<Ratings />
+					</Page>
+				}
+			/>
+			<Route
+				path="/gallery"
+				element={
+					<Page title="Свиной сайтик &bull; Галерея">
+						<Gallery />
 					</Page>
 				}
 			/>

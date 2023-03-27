@@ -23,10 +23,10 @@ export default function Navbar() {
 						<Link to="/">Главная</Link>
 					</li>
 					<li>
-						<Link to="#">Рейтинги</Link>
+						<Link to="/ratings">Рейтинги</Link>
 					</li>
 					<li>
-						<Link to="#">Галерея</Link>
+						<Link to="/gallery">Галерея</Link>
 					</li>
 					<li>
 						<Link to="/registry">Регистрация свиньи</Link>
