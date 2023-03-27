@@ -18,10 +18,15 @@ html {
 }
 
 body {
-	position: relative;
-	min-height: 100vh;
 	background-color: var(--color-light-pink);
 	font-family: var(--font-caveat);
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 100vh;
 }
 
 .simple-link {
@@ -187,7 +192,6 @@ nav ul li:hover::after {
 /* MAIN */
 
 main {
-	padding-bottom: 219px;
 	text-shadow: var(--shadow-less);
 }
 
@@ -244,7 +248,7 @@ main {
 .container {
 	max-width: 1425px;
 	margin: 0 auto;
-	padding: 100px 25px 0;
+	padding: 100px 50px;
 }
 
 .container article {

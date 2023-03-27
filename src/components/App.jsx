@@ -11,9 +11,11 @@ import "../styles/old.css";
 export default function App() {
 	return (
 		<>
-			<Navbar />
-			<Router />
-			<Footer />
+			<div className="wrapper">
+				<Navbar />
+				<Router />
+				<Footer />
+			</div>
 		</>
 	);
 }
