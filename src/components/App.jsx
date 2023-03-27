@@ -1,4 +1,6 @@
+import Navbar from "./Navbar";
 import Router from "./Router";
+import Footer from "./Footer";
 
 import "../styles/reset.css";
 import "../styles/main.css";
@@ -6,12 +8,12 @@ import "../styles/media.css";
 
 import "../styles/old.css";
 
-// TODO: Segment the site into <Navbar />, <Router /> and <Footer />.
-
 export default function App() {
 	return (
 		<>
+			<Navbar />
 			<Router />
+			<Footer />
 		</>
 	);
 }
