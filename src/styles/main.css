@@ -198,9 +198,9 @@ main {
 }
 
 .hero {
-	width: max-content;
+	width: fit-content;
 	margin: 0 auto;
-	padding: 200px 0 200px 0;
+	padding: 200px 0;
 }
 
 .hero-title {
@@ -289,7 +289,8 @@ main {
 
 .article-title {
 	position: relative;
-	padding-left: 50px;
+	margin: 0 0 27px 0;
+	padding: 0 0 0 55px;
 	font-size: 48px;
 	text-shadow: var(--shadow-white-outline);
 }
@@ -298,7 +299,7 @@ main {
 	content: "";
 	position: absolute;
 	top: 50%;
-	left: -10px;
+	left: 0;
 	display: block;
 	transform: translateY(-50%);
 	width: 45px;
@@ -309,7 +310,6 @@ main {
 }
 
 .article-text p {
-	margin: 20px 0 0 40px;
 	font: 400 22px var(--font-montserrat);
 	line-height: 34px;
 	text-align: justify;
