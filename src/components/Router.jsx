@@ -1,19 +1,26 @@
 import { Routes, Route } from "react-router-dom";
 
 import Page from "./Page";
+import NotFound from "../pages/NotFound";
 import Home from "../pages/Home";
 import Ratings from "../pages/Ratings";
 import Gallery from "../pages/Gallery";
 import Registry from "../pages/Registry";
 import Old from "../pages/Old";
 
-// TODO: Add a 404 page.
-
 export default function Router() {
 	return (
 		<Routes>
 			<Route
 				path="/*"
+				element={
+					<Page title="Свиной сайтик &bull; 404">
+						<NotFound />
+					</Page>
+				}
+			/>
+			<Route
+				path="/"
 				element={
 					<Page title="Свиной сайтик &bull; Главная">
 						<Home />
