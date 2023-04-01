@@ -311,7 +311,8 @@ main {
 
 .article-text p {
 	font: 400 22px var(--font-montserrat);
-	line-height: 34px;
+	line-height: 1.55em;
+	letter-spacing: -0.025em;
 	text-align: justify;
 }
 
