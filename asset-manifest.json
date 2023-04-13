@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/pig-website/static/css/main.99856dce.css",
+    "main.css": "/pig-website/static/css/main.3fdc9ca3.css",
     "main.js": "/pig-website/static/js/main.a0d0c49c.js",
     "static/media/little-pigs.jpg": "/pig-website/static/media/little-pigs.7c6eb0e8fa631d451583.jpg",
     "static/media/meadow-pigs.jpg": "/pig-website/static/media/meadow-pigs.f67ddf46cd790763e65b.jpg",
@@ -10,11 +10,11 @@
     "static/media/tg-logo.svg": "/pig-website/static/media/tg-logo.1ba10175c79163e6eb10e4295858b9f5.svg",
     "index.html": "/pig-website/index.html",
     "static/media/arrow-down.svg": "/pig-website/static/media/arrow-down.c0b7f3dc738eb1de2485.svg",
-    "main.99856dce.css.map": "/pig-website/static/css/main.99856dce.css.map",
+    "main.3fdc9ca3.css.map": "/pig-website/static/css/main.3fdc9ca3.css.map",
     "main.a0d0c49c.js.map": "/pig-website/static/js/main.a0d0c49c.js.map"
   },
   "entrypoints": [
-    "static/css/main.99856dce.css",
+    "static/css/main.3fdc9ca3.css",
     "static/js/main.a0d0c49c.js"
   ]
 }
