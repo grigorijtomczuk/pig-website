@@ -109,8 +109,10 @@ nav .title .pig-icon {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	translate: -72px;
+	filter: none;
 	width: 64px;
 	height: 64px;
+	will-change: translate, filter;
 	transition: translate 0.4s ease, filter 0.3s ease;
 }
 
