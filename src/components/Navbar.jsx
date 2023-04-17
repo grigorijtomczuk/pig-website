@@ -37,10 +37,10 @@ export default function Navbar() {
 					</li>
 				</ul>
 				<div className="nav-logos-container">
-					<a href="https://t.me/strawberrette_pig_bot" target="_blank" className="nav-logo-wrapper">
+					<a href="https://t.me/strawberrette_pig_bot" target="_blank" className="nav-logo-wrapper" title="Telegram Бот">
 						<SVG className="nav-logo" src={TelegramLogo} />
 					</a>
-					<a href="https://github.com/grigorijtomczuk/pig-website" target="_blank" className="nav-logo-wrapper">
+					<a href="https://github.com/grigorijtomczuk/pig-website" target="_blank" className="nav-logo-wrapper" title="GitHub">
 						<SVG className="nav-logo" src={GitHubLogo} />
 					</a>
 				</div>
