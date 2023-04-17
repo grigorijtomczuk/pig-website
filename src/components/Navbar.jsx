@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import SVG from "react-inlinesvg";
 
 import PigLogo from "../assets/images/icons/pig.svg";
 import TelegramLogo from "../assets/images/icons/tg-logo.svg";
@@ -15,7 +16,7 @@ export default function Navbar() {
 						сайтик
 					</h1>
 					<div className="pig-icon-wrapper">
-						<img className="pig-icon" src={PigLogo} alt="Pig Logo" />
+						<SVG className="pig-icon" src={PigLogo} />
 					</div>
 				</Link>
 				<ul>
@@ -37,10 +38,10 @@ export default function Navbar() {
 				</ul>
 				<div className="nav-logos-container">
 					<a href="https://t.me/strawberrette_pig_bot" target="_blank" className="nav-logo-wrapper">
-						<img className="nav-logo" src={TelegramLogo} alt="Telegram Bot" />
+						<SVG className="nav-logo" src={TelegramLogo} />
 					</a>
 					<a href="https://github.com/grigorijtomczuk/pig-website" target="_blank" className="nav-logo-wrapper">
-						<img className="nav-logo" src={GitHubLogo} alt="GitHub Repo" />
+						<SVG className="nav-logo" src={GitHubLogo} />
 					</a>
 				</div>
 			</nav>

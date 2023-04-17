@@ -104,26 +104,27 @@ nav .title .pig-icon-wrapper {
 	pointer-events: none;
 }
 
+nav .title:hover .pig-icon-wrapper {
+	pointer-events: all;
+}
+
 nav .title .pig-icon {
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	translate: -72px;
+	fill: var(--color-black);
 	filter: none;
 	width: 64px;
 	height: 64px;
-	will-change: translate, filter;
-	transition: translate 0.4s ease, filter 0.3s ease;
+	transition: translate 0.4s ease, fill 0.3s ease, filter 0.3s ease;
 }
 
 nav .title:hover .pig-icon {
 	translate: 0;
-	filter: invert(100%) drop-shadow(var(--shadow-min));
-}
-
-nav .title:hover .pig-icon-wrapper {
-	pointer-events: all;
+	fill: var(--color-white);
+	filter: drop-shadow(var(--shadow-min));
 }
 
 nav ul {
@@ -184,14 +185,17 @@ nav ul li:hover::after {
 }
 
 .nav-logo {
+	pointer-events: none;
+	fill: var(--color-black);
+	filter: none;
+	transition: all 0.2s ease;
 	width: 42px;
 	height: 42px;
-	transition: all 0.2s ease;
-	pointer-events: none;
 }
 
 .nav-logo-wrapper:hover .nav-logo {
-	filter: invert(100%) drop-shadow(var(--shadow-min));
+	fill: var(--color-white);
+	filter: drop-shadow(var(--shadow-min));
 }
 
 /* MAIN */
