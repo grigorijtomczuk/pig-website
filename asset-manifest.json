@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/pig-website/static/css/main.3fdc9ca3.css",
-    "main.js": "/pig-website/static/js/main.a0d0c49c.js",
+    "main.css": "/pig-website/static/css/main.685c9736.css",
+    "main.js": "/pig-website/static/js/main.9879f004.js",
     "static/media/little-pigs.jpg": "/pig-website/static/media/little-pigs.7c6eb0e8fa631d451583.jpg",
     "static/media/meadow-pigs.jpg": "/pig-website/static/media/meadow-pigs.f67ddf46cd790763e65b.jpg",
     "static/media/fence-pig.jpg": "/pig-website/static/media/fence-pig.0cbe371de99f94afd110.jpg",
-    "static/media/pig.svg": "/pig-website/static/media/pig.7d9b15cc2d1aca9195d99e75c7d28724.svg",
-    "static/media/gh-logo.svg": "/pig-website/static/media/gh-logo.9e50a2530bdc44b5fc527e22cef93c39.svg",
-    "static/media/tg-logo.svg": "/pig-website/static/media/tg-logo.1ba10175c79163e6eb10e4295858b9f5.svg",
+    "static/media/pig.svg": "/pig-website/static/media/pig.6246fb0b87c6eadf6fa535c3680a76fa.svg",
     "index.html": "/pig-website/index.html",
-    "static/media/arrow-down.svg": "/pig-website/static/media/arrow-down.c0b7f3dc738eb1de2485.svg",
-    "main.3fdc9ca3.css.map": "/pig-website/static/css/main.3fdc9ca3.css.map",
-    "main.a0d0c49c.js.map": "/pig-website/static/js/main.a0d0c49c.js.map"
+    "static/media/gh-logo.svg": "/pig-website/static/media/gh-logo.3b7ad151e8480181006b8da74e4b9518.svg",
+    "static/media/tg-logo.svg": "/pig-website/static/media/tg-logo.0f57cac9472633dff46ff44ab8789f2b.svg",
+    "static/media/arrow-down.svg": "/pig-website/static/media/arrow-down.f3c101f8b7ae162edcd2.svg",
+    "main.685c9736.css.map": "/pig-website/static/css/main.685c9736.css.map",
+    "main.9879f004.js.map": "/pig-website/static/js/main.9879f004.js.map"
   },
   "entrypoints": [
-    "static/css/main.3fdc9ca3.css",
-    "static/js/main.a0d0c49c.js"
+    "static/css/main.685c9736.css",
+    "static/js/main.9879f004.js"
   ]
 }
