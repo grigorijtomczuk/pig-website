@@ -13,7 +13,7 @@ export function scrollWithOffset(element) {
 // A wrapper function to use in routing that makes possible to alter page's <title> depending on the current route.
 export default function Page(props) {
 	useEffect(() => {
-		document.title = props.title || "";
+		document.title = props.title || "Свиной сайтик";
 	}, [props.title]);
 	return props.children;
 }

@@ -19,6 +19,7 @@ export default function Router() {
 					</Page>
 				}
 			/>
+
 			<Route
 				path="/"
 				element={
@@ -27,6 +28,7 @@ export default function Router() {
 					</Page>
 				}
 			/>
+
 			<Route
 				path="/ratings"
 				element={
@@ -35,6 +37,7 @@ export default function Router() {
 					</Page>
 				}
 			/>
+
 			<Route
 				path="/gallery"
 				element={
@@ -43,6 +46,7 @@ export default function Router() {
 					</Page>
 				}
 			/>
+
 			<Route
 				path="/registry"
 				element={
@@ -51,6 +55,7 @@ export default function Router() {
 					</Page>
 				}
 			/>
+
 			<Route
 				path="/old"
 				element={

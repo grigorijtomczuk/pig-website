@@ -10,12 +10,10 @@ import "../styles/old.css";
 
 export default function App() {
 	return (
-		<>
-			<div className="wrapper">
-				<Navbar />
-				<Router />
-				<Footer />
-			</div>
-		</>
+		<div className="wrapper">
+			<Navbar />
+			<Router />
+			<Footer />
+		</div>
 	);
 }
