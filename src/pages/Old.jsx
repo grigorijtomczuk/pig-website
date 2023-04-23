@@ -33,16 +33,16 @@ export default function Old() {
 				<hr />
 				<h3 className="old-heading-3">Свиная анкетка!!! Обязатльно к заполнению!</h3>
 				<form className="old-form">
-					<label for="name">Ваше свиное имя: </label>
+					<label htmlFor="name">Ваше свиное имя: </label>
 					<input id="name" name="name" type="text" placeholder="Свин Хрючный" />
 					<br />
-					<label for="date">Дата вашего свинячества (не раньше 2005!): </label>
+					<label htmlFor="date">Дата вашего свинячества (не раньше 2005!): </label>
 					<input id="date" name="date" type="date" min="2005-01-01" />
 					<br />
-					<label for="tel">Телефончик для связи: </label>
+					<label htmlFor="tel">Телефончик для связи: </label>
 					<input id="tel" name="tel" type="tel" />
 					<br />
-					<label for="svin">Вы подтверждаете, что вы свинья?: </label>
+					<label htmlFor="svin">Вы подтверждаете, что вы свинья?: </label>
 					<input id="svin" name="svin" type="checkbox" />
 					<br />
 					<input type="submit" />
