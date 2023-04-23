@@ -1,0 +1,39 @@
+.registry-form {
+	margin: 0 auto;
+	width: fit-content;
+	font: 400 18px var(--font-roboto);
+}
+
+.form-item {
+	display: block;
+	margin: 0 auto;
+	width: 350px;
+	transition: color 0.2s ease;
+}
+
+.form-item + .form-item {
+	margin-top: 24px;
+}
+
+.form-item:focus-within {
+	color: var(--color-white);
+}
+
+.form-item input:not([type="checkbox"]) {
+	border: 1px solid;
+	border-radius: 4px;
+	width: 300px;
+	height: 25px;
+	padding: 8px;
+}
+
+.form-item-wrapper {
+	margin: 0 auto;
+	width: fit-content;
+}
+
+.form-button {
+	display: block;
+	margin: 8px auto;
+	width: 128px;
+}
