@@ -96,15 +96,15 @@ nav .title:hover {
 nav .title .pig-icon-wrapper {
 	position: absolute;
 	top: 50%;
-	right: -72px;
+	right: -64px;
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
 	overflow: hidden;
 	transform: translateY(-50%);
 	pointer-events: none;
-	width: 72px;
-	height: 72px;
+	width: 64px;
+	height: 64px;
 }
 
 nav .title:hover .pig-icon-wrapper {
@@ -117,8 +117,8 @@ nav .title .pig-icon {
 	filter: none;
 	will-change: translate, fill, filter;
 	transition: translate 0.4s ease, fill 0.3s ease, filter 0.3s ease;
-	width: 64px;
-	height: 64px;
+	width: 56px;
+	height: 56px;
 }
 
 nav .title:hover .pig-icon {
