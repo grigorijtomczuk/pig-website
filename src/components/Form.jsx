@@ -1,6 +1,11 @@
 import "../styles/module_styles/registry.css";
 
 export default function Form() {
+	function handleSubmit(event) {
+		event.preventDefault();
+		alert("Свинья зарегистрирована!");
+	}
+
 	return (
 		<form className="registry-form">
 			<label className="form-item">
@@ -10,10 +15,10 @@ export default function Form() {
 				</div>
 			</label>
 
-			<label className="form-item" title="Не позже 01.01.2005!">
+			<label className="form-item">
 				<div className="form-item-wrapper">
 					<p>Дата вашего свинячества</p>
-					<input name="birthDate" type="date" max="2005-01-01" />
+					<input name="birthDate" type="date" min="1900-01-01" />
 				</div>
 			</label>
 
@@ -31,7 +36,7 @@ export default function Form() {
 				</div>
 			</label>
 
-			<input className="form-button" type="submit" value="Зарегистрировать" />
+			<input className="form-button" type="submit" value="Зарегистрировать" onClick={handleSubmit} />
 			<input className="form-button" type="reset" value="Сбросить" />
 		</form>
 	);
