@@ -22,7 +22,6 @@ html {
 
 body {
 	background-color: var(--color-light-pink);
-	font-family: var(--font-caveat);
 }
 
 .wrapper {
@@ -81,9 +80,10 @@ nav {
 
 nav .title {
 	position: relative;
-	text-transform: lowercase;
-	font: 700 24px/22px var(--font-montserrat);
 	transition: transform 0.4s ease, color 0.3s ease, text-shadow 0.3s ease;
+	font: 700 24px/22px var(--font-montserrat);
+	text-align: center;
+	text-transform: lowercase;
 }
 
 nav .title:hover {
@@ -96,12 +96,14 @@ nav .title .pig-icon-wrapper {
 	position: absolute;
 	top: 50%;
 	right: -72px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
 	transform: translateY(-50%);
-	display: inline-block;
+	pointer-events: none;
 	width: 72px;
 	height: 72px;
-	overflow: hidden;
-	pointer-events: none;
 }
 
 nav .title:hover .pig-icon-wrapper {
@@ -109,16 +111,13 @@ nav .title:hover .pig-icon-wrapper {
 }
 
 nav .title .pig-icon {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
 	translate: -72px;
 	fill: var(--color-black);
 	filter: none;
+	will-change: translate, fill, filter;
+	transition: translate 0.4s ease, fill 0.3s ease, filter 0.3s ease;
 	width: 64px;
 	height: 64px;
-	transition: translate 0.4s ease, fill 0.3s ease, filter 0.3s ease;
 }
 
 nav .title:hover .pig-icon {
@@ -131,7 +130,7 @@ nav ul {
 	display: flex;
 	flex-direction: row;
 	list-style-type: none;
-	font-size: 24px;
+	font: 500 20px var(--font-roboto);
 }
 
 nav ul li + li {
@@ -148,19 +147,19 @@ nav ul li:hover {
 	text-shadow: var(--shadow-less);
 }
 
-/* list hover underline */
+/* List item underline on hover */
 nav ul li::after {
+	content: "";
 	position: absolute;
 	bottom: -4px;
 	left: 0;
-	width: 100%;
-	height: 3px;
-	content: "";
-	background-color: var(--color-black);
 	transform: scaleX(0);
 	transform-origin: bottom right;
-	transition: transform 0.4s ease-out, background-color 0.3s ease, box-shadow 0.3s ease;
 	pointer-events: none;
+	transition: transform 0.4s ease-out, background-color 0.3s ease, box-shadow 0.3s ease;
+	width: 100%;
+	height: 3px;
+	background-color: var(--color-black);
 }
 
 nav ul li:hover::after {
@@ -217,9 +216,8 @@ main {
 }
 
 .hero-title span {
-	font: inherit;
 	text-decoration-line: underline;
-	text-underline-offset: 5px;
+	text-underline-offset: 8px;
 }
 
 .hero-subtitle {
@@ -298,7 +296,7 @@ main {
 	position: relative;
 	margin: 0 0 27px 0;
 	padding: 0 0 0 55px;
-	font-size: 48px;
+	font: 700 48px var(--font-caveat);
 	text-shadow: var(--shadow-white-outline);
 }
 
@@ -352,8 +350,7 @@ footer p {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	width: fit-content;
-	font-family: var(--font-roboto);
-	font-size: 18px;
+	font: 400 18px var(--font-roboto);
 	text-align: center;
 }
 
